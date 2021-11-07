@@ -31,9 +31,6 @@ function App() {
             <Route exact path="/register">
               <Register />
             </Route>
-            <Route path="*">
-              <NotFound />
-            </Route>
             <PrivateRoute exact path="/appointment">
               <Appointment />
             </PrivateRoute>
